@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap");
+/* Variables */
+:root {
+  /* FOnts */
+  --primary-font: "Raleway", sans-serif;
+  --secondary-font: "Montserrat", sans-serif;
+  /* Colors */
+  --primary: #303672;
+  --secondary: #fa8128;
+  --dark: #000000;
+  --light: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  transition: 0.5s ease all;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.btns {
+  color: var(--light) !important;
+  font-family: var(--secondary-font);
+  border-radius: 10px;
+  font-weight: 500;
+  background: var(--secondary);
+  padding: 6px 20px 6px 20px;
+  transition: 0.5s ease all !important;
+  font-size: 15px;
+  cursor: pointer;
+
+  display: inline-block;
+}
+
+.contact-btn {
+  color: var(--light) !important;
+  font-family: var(--secondary-font);
+  border-radius: 10px;
+  font-weight: 500;
+  background: var(--secondary);
+  padding: 6px 20px 6px 20px;
+  transition: 0.5s ease all !important;
+  font-size: 15px;
+  display: block;
+  cursor: pointer;
+}
+
+.btns:hover,
+.contact-btn:hover {
+  background: var(--primary);
+
+  cursor: pointer;
+}
+
+/* Background */
+.bg-primary {
+  background: var(--primary) !important;
+}
+.bg-secondary {
+  background: var(--secondary) !important;
+}
+.bg-dark {
+  background: var(--dark) !important;
+}
+
+/* Color */
+.text-primary {
+  color: var(--primary) !important;
+}
+.text-secondary {
+  color: var(--secondary) !important;
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.text-dark {
+  color: var(--dark);
+}
+
+/* font */
+.font-heading {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.font-heading1 {
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: 40px;
+}
+.font-primary {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.font-primary1 {
+  font-family: var(--primary-font);
+  font-weight: bold;
+  font-size: 18px;
+}
+.font-secondary {
+  font-family: var(--secondary-font);
+  font-size: 14px;
+}
+
+.paragraph {
+  color: #3b3b3b;
+  font-size: 16px;
+  font-family: var(--secondary-font);
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+img,
+video {
+  border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 3px;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.text-grey {
+  color: #7a7a7a;
+}
+
+.img-fluid {
+  width: 100%;
+}
